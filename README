@@ -1,10 +1,10 @@
-This project is a modernisation of W. Stephen Woodward's vector anemometer, detailed in the September 1997 issue of EDN (pp. 114-115, scanned copy found in the Doc directory of this repo). This modernisation is specifically aimed at the small-boat sailing community, but should be able to be easily adapted for any wind monitoring project with little effort.
+This project is a modernization of W. Stephen Woodward's vector anemometer, detailed in the September 1997 issue of EDN (pp. 114-115, scanned copy found in the Doc directory of this repo). This modernization is specifically aimed at the small-boat sailing community, but should be able to be easily adapted for any wind monitoring project with little effort.
 
 The system will consist of a faithful reproduction of W. Stephen Woodward's analog vector anemometer as a masthead wind sensor, with the addition of a small microcontroller to read the frequency-based data produced by the circuit. The data will be displayed by a series of PWM-dimmable 7-segment displays powered by a more powerful microcontroller, placed somewhere in the boat's cockpit and connected to the masthead sensor via UART, SPI, or I2C (TBD).
 
-An eventual goal of this project is to allow NMEA 183 passthrough, taking a GPS on RS232, displaying select information on the cockpit displays, and injecting wind data into the NMEA sentences. An RS232 port will then feed the resulting NMEA sentences to a PC host for logging with the aim at automatic creation pof vehcile polar plots. Alternatively, if budget allows, the system could log such data to SD card.
+An eventual goal of this project is to allow NMEA 183 passthrough, taking a GPS on RS232, displaying select information on the cockpit displays, and injecting wind data into the NMEA sentences. An RS232 port will then feed the resulting NMEA sentences to a PC host for logging with the aim at automatic creation of vehicle polar plots. Alternatively, if budget allows, the system could log such data to SD card.
 
-With reference to this repo, the Doc directory contains all relevant documentation for the project, including source material, notes, and diagrams. Eventually, installation notes and code reference manuals will be posted there as well.
+With reference to this repo, the Doc directory contains all relevant documentation for the project, including the project BOM, source material, notes, and diagrams. Eventually, installation notes and code reference manuals will be posted there as well.
 
 The CAD directory will contain any physical CAD drawings, for suggested cases and mounting brackets.
 

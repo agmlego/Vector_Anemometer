@@ -1,0 +1,20 @@
+# Autodesk Inventor backups and lockfile
+OldVersions/
+lockfile.lck
+
+# EAGLE revision history
+*.b#*
+*.s#*
+*.l#*
+
+# OpenOffice lockfile
+.~lock.*
+
+# Compiled Python code
+*.pyc
+
+# vim backup file
+*.swp
+
+# ispell/gedit backup file
+*.bak
